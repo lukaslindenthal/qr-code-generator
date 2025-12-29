@@ -6,7 +6,6 @@ A small R helper to generate QR codes from a URL and export them as **PNG** and 
 - Exports **PNG** (bitmap) and **PDF** (print-friendly)
 - Optional **SVG** export (vector, great for print/editing)
 - Automatically creates the output folder if it doesn’t exist
-- Supports QR error correction levels: `L`, `M`, `Q`, `H`
 
 ## Requirements
 - R (recent version)
@@ -16,13 +15,6 @@ Install the dependency:
 ```r
 install.packages("qrcode")
 ```
-
-## Project Structure
-.
-├─ qr_generator.R        # contains generate_qr_for_link()
-├─ README.md
-└─ qr-codes/             # output folder (auto-created if missing)
-
 
 ## Setup
 
